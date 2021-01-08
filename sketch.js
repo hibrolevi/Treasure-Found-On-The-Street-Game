@@ -102,7 +102,7 @@ function draw() {
 }
 
 function createCash() {
-  if (World.frameCount % 200 == 0) {
+  if (World.frameCount % 100 == 0) {
   var cash = createSprite(Math.round(random(50, width-50),40, 10, 10));
   cash.addImage(cashImg);
   cash.scale=0.12;
@@ -113,7 +113,7 @@ function createCash() {
 }
 
 function createDiamonds() {
-  if (World.frameCount % 320 == 0) {
+  if (World.frameCount % 120 == 0) {
   var diamonds = createSprite(Math.round(random(50, width-50),40, 10, 10));
   diamonds.addImage(diamondsImg);
   diamonds.scale=0.03;
@@ -124,7 +124,7 @@ function createDiamonds() {
 }
 
 function createJwellery() {
-  if (World.frameCount % 410 == 0) {
+  if (World.frameCount % 210 == 0) {
   var jwellery = createSprite(Math.round(random(50, width-50),40, 10, 10));
   jwellery.addImage(jwelleryImg);
   jwellery.scale=0.13;
@@ -135,7 +135,7 @@ function createJwellery() {
 }
 
 function createSword(){
-  if (World.frameCount % 530 == 0) {
+  if (World.frameCount % 330 == 0) {
   var sword = createSprite(Math.round(random(50, width-50),40, 10, 10));
   sword.addImage(swordImg);
   sword.scale=0.1;
